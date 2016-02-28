@@ -1,5 +1,12 @@
 ####################################################################################################
 Written by Swapnil MAHAJAN. 26th March 2013.
+
+Following scripts can be used to align 2 protein structures using Protein Block (PB) sequences i.e. pairwise local or global alignment or 
+for mining the given database of PB sequences for similar protein structures. 
+
+Web-server for the same tasks is also availble at Protein Block Expert (PBE) server: http://www.bo-protscience.fr/pbe/
+Please use PB_Assignment scripts (https://github.com/mahaswap/PB_Assignment) or PBE web-server to convert protein structures into PB sequences.
+
 ####################################################################################################
 
 ## Compile C scripts for PB-ALIGN (You can use "cc" or "gcc" compiler on linux and Mac-OS; for Windows OS you will need visual basic suite to compile these C scripts)
