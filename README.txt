@@ -1,6 +1,6 @@
-##################################################
+####################################################################################################
 Written by Swapnil MAHAJAN. 26th March 2013.
-##################################################
+####################################################################################################
 
 ## Compile C scripts for PB-ALIGN (You can use "cc" or "gcc" compiler on linux and Mac-OS; for Windows OS you will need visual basic suite to compile these C scripts)
 
@@ -20,7 +20,8 @@ perl pb_align_pairwise_GA.pl ./d1aq0a_.pbseq ./d1aq1a_.pbseq ./d1aq0a_.aln
 perl pb_align_pairwise_LA.pl path/PB_seq_file1 path/PB_seq_file2 path/output_file_name
 e.g.
 perl pb_align_pairwise_LA.pl ./d1aq0a_.pbseq ./d1aq1a_.pbseq ./d1aq0a_.aln
-##################################################
+####################################################################################################
+
 
 ##PB-ALIGN database mining using global alignment
 # You need to install Statistics::Basic Perl module to use these following scripts
@@ -30,7 +31,7 @@ perl pb_align_pairwise_LA.pl ./d1aq0a_.pbseq ./d1aq1a_.pbseq ./d1aq0a_.aln
 
 perl pb_align_mining_GA.pl path/input_PB_seq_folder ./astral95_1.75A/PB_SEQ path/output_file_name length_cutoff[optional, default 30] ranks[optional, default 20]
 
-#Similarly for database mining using locl alignment
+#Similarly for database mining using local alignment
 perl pb_align_mining_LA.pl path/input_PB_seq_folder ./astral95_1.75A/PB_SEQ path/output_file_name length_cutoff[optional, default 30] ranks[optional, default 20]
 
 #Output file format for these two scripts are same.
@@ -65,3 +66,10 @@ aligned_hits_seq
 Z_score
 total_number_of_alignments_performed
 
+####################################################################################################
+Please cite following articles:
+(1) Tyagi M., de Brevern A.G., Srinivasan N., Offmann B. Protein structure mining using a structural alphabet. Proteins 71:920–937, (2008).
+(2) Offmann B., Tyagi M., de Brevern A.G. Local Protein Structures. Current Bioinformatics, 2, 165-202, 2007.
+Tyagi M, Gowri V.S., Srinivasan N,  de Brevern A.G, & Offmann B. A substitution matrix for structural alphabet based on structural alignment of homologous proteins and its applications. Proteins 65(1) :32-39, (2006).
+(3) Tyagi M, Sharma P, Swamy C.S, Cadet F, Srinivasan N, de Brevern A.G. and Offmann B. Protein Block Expert (PBE). A web-based protein structure analysis server using a structural alphabet. Nucleic Acids Res., 34:W119-W123, (2006).
+####################################################################################################
