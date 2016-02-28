@@ -31,7 +31,7 @@ perl pb_align_pairwise_LA.pl ./d1aq0a_.pbseq ./d1aq1a_.pbseq ./d1aq0a_.aln
 
 
 ##PB-ALIGN database mining using global alignment
-# You need to install Statistics::Basic Perl module to use these following scripts
+# You need to install Statistics::Basic Perl module to use these following scripts (Available at: http://search.cpan.org/~jettero/Statistics-Basic-1.6611/lib/Statistics/Basic.pod)
 # You can have one or more input files in input folder. But all the input files should be PB sequence files with .pbseq extesion
 # astral95_1.75A folder (or a zipped file. Please unzip it before using) is provided which contains PB seq and AA seq files for Astral95 dataset (Chandonia et al, NAR 2004) from SCOP 1.75A (Murzin et al, JMB 1995).
 # Last two arguments for length_cutoff and ranks are optional, default values are set to 30 and 20 respectively.
